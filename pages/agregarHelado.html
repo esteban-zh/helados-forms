@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+
+    <title>agregar un helado</title>
+  </head>
+  <body>
+    <h1>AGREGANDO UN HELADO</h1>
+    <form>
+      <label for="nombre_helado">
+        Nombre del helado:
+        <input type="text" id="nombre_helado" name="nombre_helado" /> </label
+      ><br />
+      <br />
+      <label for="sabor_helado">
+        Sabor del helado:
+        <input type="text" id="sabor_helado" name="sabor_helado" /> </label
+      ><br />
+      <br />
+      <label for="cantidad_invent_helado">
+        Cantidad en inventario:
+        <input
+          type="number"
+          id="cantidad_invent_helado"
+          name="cantidad_invent_helado"
+        />
+        <br /><br />
+        <div class="d-none d-sm-block"></div>
+      </label>
+      <label for="precio_helado">
+        Precio unitario:
+        <input type="number" id="precio_helado" name="precio_helado" /> </label
+      ><br /><br />
+
+      <button type="submit">agregar</button>
+    </form>
+    <script src="../scripts/agregarHelado.js"></script>
+  </body>
+</html>
